@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for POS Device Sim Application -->
+<jnlp
+  spec="1.5+"
+  codebase="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/"
+  href="pos-device-sim.jnlp">
+  <information>
+    <title>POS Device Sim Application</title>
+    <vendor>Jumpmind, Inc.</vendor>   
+    <homepage href="http://code.google.com/p/pos-device-simulator/"/>
+    <description>Point of Sale device simulator</description>
+    <description kind="short">Allows a POS application to run without the need for actual devices attached.</description>
+    <icon href="images/swingset2.jpg"/>
+    <icon kind="splash" href="http://code.google.com/p/pos-device-simulator/logo?logo_id=1258983316"/>
+  </information>
+  <resources>
+    <j2se version="1.5+"/>    
+    <jar href="http://pos-device-simulator.googlecode.com/files/pos-device-sim.jar"/>
+    <jar href="http://pos-device-simulator.googlecode.com/files/pos-device-sim-jws.jar"/>
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/jpos/postest/110/postest-110.jar"/>
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/jpos/jpos/113/jpos-113.jar"/>    
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/xerces/xerces/1.4.4/xerces-1.4.4.jar"/>  
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/> 
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar"/> 
+    <jar href="http://pos-device-simulator.googlecode.com/svn/trunk/pos-device-sim/maven/repository/org/jdom/jdom/1.1/jdom-1.1.jar"/> 
+  </resources>
+  <application-desc main-class="com.jpos.POStest.POStest"/>
+</jnlp> 
